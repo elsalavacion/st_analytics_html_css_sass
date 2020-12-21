@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ST Analytics</title>
+
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Mono:ital,wght@1,200&family=Roboto+Slab:wght@900&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="img/download.jpg" type="image/x-icon">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="nav-hamburger">
+      <label for="drop-down-check">
+        <span>
+          <i class="fas fa-bars fa-2x"></i>
+        </span>
+      </label>
+    </div>
+
+    <!-- brand -->
+    <div class="nav-brand">
+      <a href="#">
+        ST<span>Analytics</span>
+      </a>
+    </div>
+  </nav>
+
+  <main class="main">
+    <input type="checkbox" id="drop-down-check">
+    <div class="main-left-sidebar">
+      <div class="main-left-sidebar-close">
+        <label for="drop-down-check">
+          <span><i class="fas fa-times fa-2x"></i></span>
+        </label>
+      </div>
+      <div class="main-left-sidebar-profile">
+        <!-- Profile Image -->
+        <img src="img/avatar2.png" alt="profile">
+        <!-- Info -->
+        <div class="main-left-sidebar-profile-info">
+          <div class="main-left-sidebar-profile-info-name">
+            Welcome <h3>STEPS</h3>
+          </div>
+          <div class="main-left-sidebar-profile-info-icons">
+            <a href="#">
+              <span>
+                <i class="fas fa-envelope"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span>
+                <i class="fas fa-user"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span>
+                <i class="fas fa-cog"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="main-left-sidebar-details">
+        <h3>Dashboard</h3>
+        <a href="#overview">
+          <span>
+            <i class="fas fa-users"></i>
+          </span>
+          Overview
+        </a>
+        <a href="#summary">
+          <span>
+            <i class="fas fa-info-circle"></i>
+          </span>
+          Summary
+        </a>
+        <a href="#regions">
+          <span>
+            <i class="fas fa-globe-asia"></i>
+          </span>
+          Regions
+        </a>
+        <a href="#performance">
+          <span>
+            <i class="fas fa-chart-line"></i>
+          </span>
+          Performance
+        </a>
+        <a href="#gstats">
+          <span>
+            <i class="fas fa-signal"></i>
+          </span>
+          General Stats
+        </a>
+        <a href="#users">
+          <span>
+            <i class="fas fa-users"></i>
+          </span>
+          Users
+        </a>
+        <a href="#country">
+          <span>
+            <i class="fas fa-flag"></i>
+          </span>
+          Countries
+        </a>
+        <a href="#bounces">
+          <span>
+            <i class="fas fa-chart-bar"></i>
+          </span>
+          Web Bounces
+        </a>
+      </div>
+    </div>
+    <div class="main-right">
+      <!-- counts -->
+      <div class="main-right-count" id="overview">
+        <h3><span><i class="fas fa-tachometer-alt"></i></span>Dashboard</h3>
+        <div class="main-right-count-summary">
+          <div class="count comment">
+            <div class="count-details">
+              <div class="count-details-icon">
+                <i class="fas fa-comment-dots fa-2x"></i>
+              </div>
+              <div class="count-details-num">
+                50
+              </div>
+            </div>
+            <div class="count-details-motto">
+              Comments
+            </div>
+          </div>
+          <div class="count views">
+            <div class="count-details">
+              <div class="count-details-icon">
+                <i class="far fa-eye fa-2x"></i>
+              </div>
+              <div class="count-details-num">
+                1.5M
+              </div>
+            </div>
+            <div class="count-details-motto">
+              Views
+            </div>
+          </div>
+          <div class="count shares">
+            <div class="count-details">
+              <div class="count-details-icon">
+                <i class="fas fa-share-alt fa-2x"></i>
+              </div>
+              <div class="count-details-num">
+                100
+              </div>
+            </div>
+            <div class="count-details-motto">
+              Shares
+            </div>
+          </div>
+          <div class="count users">
+            <div class="count-details">
+              <div class="count-details-icon">
+                <i class="fas fa-users fa-2x"></i>
+              </div>
+              <div class="count-details-num">
+                5M
+              </div>
+            </div>
+            <div class="count-details-motto">
+              Users
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Analytics -->
+      <section class="summary" id="summary">
+        <div class="summary-heading">
+          Summary
+        </div>
+        <div class="summary-img">
+          <img src="img/analytics 1.png" alt="">
+        </div>
+      </section>
+
+      <!-- Regions and Feeds -->
+      <section class="ref" id="regions">
+        <div class="ref-region">
+          <div class="ref-region-heading">
+            Regions
+          </div>
+          <div class="ref-region-img">
+            <img src="img/region.jpg" alt="ST Analytics">
+          </div>
+        </div>
+        <div class="ref-feeds">
+          <div class="ref-feeds-heading">
+            Feeds
+          </div>
+          <div class="ref-feeds-data">
+            <table>
+              <!-- table row -->
+              <tr>
+                <td>
+                  <i class="fas fa-user"></i>
+                </td>
+                <td>
+                  New record, over 90 views.
+                </td>
+                <td>
+                  10 mins
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <i class="fas fa-bell"></i>
+                </td>
+                <td>
+                  Database error.
+                </td>
+                <td>
+                  15 mins
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <i class="fas fa-users"></i>
+                </td>
+                <td>
+                  New record, over 40 users
+                </td>
+                <td>
+                  17 mins
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <i class="fas fa-bookmark"></i>
+                </td>
+                <td>
+                  Check transactions
+                </td>
+                <td>
+                  20 mins
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <i class="fas fa-laptop"></i>
+                </td>
+                <td>
+                  CPU overload.
+                </td>
+                <td>
+                  30 mins
+                </td>
+              </tr>
+
+
+              <tr>
+                <td>
+                  <i class="fas fa-comment-dots"></i>
+                </td>
+                <td>
+                  New comments.
+                </td>
+                <td>
+                  35 mins
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <i class="fas fa-share-alt"></i>
+                </td>
+                <td>
+                  New shares.
+                </td>
+                <td>
+                  40 mins
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Charts -->
+      <section class="charts" id="performance">
+        <div class="charts-heading">
+          Web Performance
+        </div>
+        <div class="charts-img">
+          <img src="img/analytics 2.png" alt="">
+        </div>
+      </section>
+
+      <!-- General Stats -->
+      <section class="stats" id="gstats">
+        <div class="stats-heading">
+          General Stats
+        </div>
+        <div class="stats-visitors">
+          <div class="stats-visitors-label">
+            New Visitors
+          </div>
+          <div class="stats-visitors-percentage">
+            <div>
+              25%
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-users">
+          <div class="stats-users-label">
+            New Users
+          </div>
+          <div class="stats-users-percentage">
+            <div>
+              50%
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-rate">
+          <div class="stats-rate-label">
+            Bounce Rate
+          </div>
+          <div class="stats-rate-percentage">
+            <div>
+              75%
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Charts -->
+      <section class="country" id="country">
+        <div class="country-heading">
+          Country
+        </div>
+        <div class="country-data">
+          <table>
+            <tr>
+              <td>
+                Gambia
+              </td>
+              <td>
+                75%
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                Bangladesh
+              </td>
+              <td>
+                65%
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                Dakar
+              </td>
+              <td>
+                25%
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                Spain
+              </td>
+              <td>
+                55%
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                India
+              </td>
+              <td>
+                35%
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                Russia
+              </td>
+              <td>
+                15%
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="country-btn">
+          <a href="#">More <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+        </div>
+      </section>
+
+       <!-- Charts -->
+       <section class="charts" id="bounces">
+        <div class="charts-heading">
+          Web Bounces
+        </div>
+        <div class="charts-img">
+          <img src="img/bouncerate.jpg" alt="Web bounce">
+        </div>
+      </section>
+
+      <!-- users -->
+      <section class="users" id="users">
+        <div class="users-heading">
+          Recent Users
+        </div>
+        <div class="users-details">
+          <div>
+            <img src="img/avatar1.png" alt="ST Analytics">
+            <p>Dodou</p>
+          </div>
+
+          <div>
+            <img src="img/avatar2.png" alt="ST Analytics">
+            <p>Kebba</p>
+          </div>
+
+          <div>
+            <img src="img/avatar3.png" alt="ST Analytics">
+            <p>Musa</p>
+          </div>
+
+          <div>
+            <img src="img/avatar5.png" alt="ST Analytics">
+            <p>Sawo</p>
+          </div>
+        </div>
+      </section>
+      
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-heading">
+        Follow Me
+      </div>
+      <div class="footer-social">
+        <span>
+          <a target="_blank" href="#">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </span>
+        <span>
+          <a target="_blank" href="#">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+        </span>
+        <span>
+          <a target="_blank" href="#">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+        </span>
+        <span>
+          <a target="_blank" href="#">
+            <i class="fab fa-tiktok fa-2x"></i>
+          </a>
+        </span>
+        <span>
+          <a target="_blank" href="#">
+            <i class="fab fa-snapchat-ghost fa-2x"></i>
+          </a>
+        </span>
+      </div>
+      <div class="footer-motto">
+        Developed by STEPS &copy;2020 and Some credit to <span><a href="https://w3schools.com" target="_blank">W3Schools</a></span>
+      </div>
+    </footer>
+    </div>
+  </main>
+</body>
+</html>

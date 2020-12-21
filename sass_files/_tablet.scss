@@ -1,0 +1,69 @@
+@media (max-width: 995px) {
+  body 
+  {
+    position: relative;
+  }
+  .main {
+    display: inline;
+
+    &-left-sidebar {
+      display: none;
+      transform: translateX(-200vw);
+      position: fixed;
+      left: 0;
+      top: 50px;
+      height: 100vh;
+      width: 75vw;
+      z-index: 2;
+      transition: display 0.5s;
+
+      // close icon
+      &-close {
+        display: flex;
+        justify-content: flex-end;
+        transition: all 0.5s;
+        label {
+          cursor: pointer;
+          background: white;
+          color: black;
+          padding: 10px;
+          border: 1px solid black;
+        }
+      }
+    }
+
+    &-right 
+    {
+      z-index: 1;
+
+      // count
+      &-count 
+      {
+
+        // summary
+        &-summary 
+        {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+  }
+
+  // nav
+  .nav {
+    position: sticky;
+    top: 0;
+    // hamburger
+    &-hamburger {
+      display: inline-block;
+    }
+  }
+
+  // input checked
+  #drop-down-check:checked ~ .main-left-sidebar {
+    display: block;
+    transform: translateX(0);
+    transition: all 1.5s;
+    
+  }
+}

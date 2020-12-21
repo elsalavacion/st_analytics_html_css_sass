@@ -1,0 +1,81 @@
+.ref {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  // margin: 25px 0;
+  padding: 10px;
+
+  // regions
+  &-region {
+    padding: 10px;
+
+    &-heading {
+      font-size: 24px;
+      font-family: $sub-heading-font;
+      padding: 10px;
+    }
+
+    &-img 
+    {
+    img 
+    {
+      width: 99%;
+      margin: auto;
+      height: 250px;
+    }
+    }
+  }
+
+  // feeds
+  &-feeds
+  {
+    padding: 10px;
+
+    &-heading {
+      font-size: 24px;
+      font-family: $sub-heading-font;
+      padding: 10px;
+    }
+    &-data 
+    {
+      table 
+      {
+        width: 95%;
+        margin: auto;
+        border-collapse: collapse;
+
+        tr 
+        {
+          font-size: 16px;
+          height: 40px;
+          td 
+          {
+          padding: 5px;
+
+          }
+        }
+        // odd
+        tr:nth-child(odd)
+        {
+          background: white;
+            
+
+            .fas
+            {
+              color: rgba($color: #0000ff, $alpha: 0.8);
+            }
+        } 
+         // even
+         tr:nth-child(even)
+         {
+           background: #f2f2f2;
+
+           .fas
+           {
+             color: rgba($color: #ff0000, $alpha: 0.8);
+           }
+         } 
+      
+      }
+    }
+  }
+}

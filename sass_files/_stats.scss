@@ -1,0 +1,91 @@
+.stats {
+  // margin: 25px 0;
+  padding: 10px;
+
+  &-heading {
+    font-size: 24px;
+    font-family: $sub-heading-font;
+    padding: 10px;
+  }
+
+  // visitors
+  &-visitors {
+    margin: 5px 0;
+    // labels
+    &-label {
+      font-size: 18px;
+      padding: 5px 0;
+    }
+
+    // percentage
+    &-percentage {
+      height: 30px;
+      background: darkgrey;
+      width: 100%;
+
+      // %
+      & > div {
+        width: 25%;
+        background: teal;
+        height: 100%;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+      }
+    }
+  }
+
+  // Users
+  &-users {
+    margin: 5px 0;
+    // labels
+    &-label {
+      font-size: 18px;
+      padding: 5px 0;
+    }
+
+    // percentage
+    &-percentage {
+      height: 30px;
+      background: darkgrey;
+      width: 100%;
+      // %
+      & > div {
+        width: 50%;
+        background: chocolate;
+        height: 100%;
+        color: white;
+        line-height: 30px;
+        text-align: center;
+      }
+    }
+  }
+
+  // Rate
+  &-rate {
+    margin: 5px 0;
+    // labels
+    &-label {
+      font-size: 18px;
+      padding: 5px 0;
+    }
+
+    // percentage
+    &-percentage {
+      height: 30px;
+      background: darkgrey;
+      width: 100%;
+
+      // %
+      & > div {
+        width: 75%;
+        background: rgba($color: #ff0000, $alpha: 0.7);
+        height: 100%;
+        line-height: 30px;
+        color: white;
+        text-align: center;
+      }
+    }
+  }
+}

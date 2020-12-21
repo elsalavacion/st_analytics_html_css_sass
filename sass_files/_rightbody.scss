@@ -1,0 +1,87 @@
+.main 
+{
+  // right
+  &-right
+  {
+    background: #f2f2f2;
+    padding: 15px 10px;
+
+    // count
+    &-count 
+    {
+      display: flex;
+      flex-direction: column;
+      h3 
+      {
+        font-size: 22px;
+        span 
+        {
+          padding: 0 5px;
+        }
+      }
+
+      // summary
+      &-summary 
+      {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
+        .count 
+        {
+          margin: 0 5px;
+          padding: 5px;
+          display: flex;
+          flex-direction: column;
+          // count details
+          &-details 
+          {
+            display: flex;
+            justify-content: space-between;
+            font-size: 24px;
+            font-family: $sub-heading-font;
+
+            // motto
+            &-motto 
+            {
+              padding: 15px 0;
+              font-size: 22px;
+              font-size: $motto-font;
+            }
+            
+         
+          }
+        }
+
+           // comment
+           .comment 
+           {
+             background: crimson;
+             color: white;
+
+           }
+
+          //  views
+          .views 
+          {
+            background: steelblue;
+            color: white;
+
+          }
+          // shares
+          .shares 
+          {
+            background: teal;
+            color: white;
+          }
+
+          // users
+          .users 
+          {
+            background: chocolate;
+            color: white;
+
+          }
+      }
+    }
+  }
+}

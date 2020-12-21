@@ -62,9 +62,9 @@ h3 {
   position: sticky;
   left: 0;
   top: 0;
-  overflow: hidden;
   background: white;
-  height: 100vh; }
+  height: 100vh;
+  overflow-y: auto; }
   .main-left-sidebar-close {
     display: none; }
   .main-left-sidebar-profile {
